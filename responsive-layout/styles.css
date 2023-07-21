@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    height: 100%;
+    width: 200px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 16px;
+}
+
+footer {
+    display: flex;
+    background-color: skyblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+}
